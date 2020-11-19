@@ -6,10 +6,10 @@ const msg = "runing!";
 
 app.use(cors());
 
-app.get("/api", (_, res)=>
-res.json({
-    data: msg,
-})
+app.get("/api", (_, res) =>
+    res.json({
+        data: msg,
+    })
 );
 
-app.listen(process.env.PORT || 3333, ()=> console.log(msg));
+app.listen(process.env.PORT || 3333, () => console.log(msg));
