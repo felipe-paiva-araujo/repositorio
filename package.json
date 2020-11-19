@@ -1,0 +1,28 @@
+{
+  "name": "repositorio",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12"
+    },
+    
+  "description": "projeto",
+  "main":"node server/src/index.js",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe-paiva-araujo/repositorio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipe-paiva-araujo/repositorio/issues"
+  },
+  "homepage": "https://github.com/felipe-paiva-araujo/repositorio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
